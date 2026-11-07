@@ -2,236 +2,87 @@
 
 **Your Game. Your Playbook.**
 
-The **MCST3RX Football Save Editor** is a free community-built Windows tool for inspecting and editing supported football game saves through a safety-focused, modern interface.
+A Windows tool for inspecting and editing supported football franchise and dynasty saves with a safety-focused interface.
 
-> **Current Release:** v1.2.1  
-> **Supported Families:** Madden NFL 19–27 and College Football 27  
-> **Platform:** Windows
+> **Release status:** README identifies v1.2.1; confirm its publication and per-format acceptance against release assets.  
+> **Platform:** Windows x64  
+> **Source code:** Private; not open source
 
 ---
 
 ## 📥 Download
 
-Official builds are distributed through the **Releases** section of this repository.
+Official approved builds are distributed through [GitHub Releases](https://github.com/mcst3rx/MCST3RX-Football-Save-Editor-Releases/releases). Use the release assets for the specific installer or portable package that has actually been published.
 
-➡️ **Go to Releases:**  
-https://github.com/mcst3rx/mcst3rx-football-save-editor-releases/releases
-
-For each release, download the installer or portable build provided under **Assets**.
-
-### Verify Your Download
-
-Official releases may include SHA-256 hashes so downloaded files can be verified against the published release.
-
-Only download the MCST3RX Football Save Editor from this official repository or another official MCST3RX distribution location.
+Verify any published SHA-256 checksum and use only official MCST3RX distribution channels. Never disable security software to run an unsigned executable.
 
 ---
 
 ## ✨ Features
 
-Available functionality depends on the detected game, version, save type, and mode.
+- Game, version and mode detection
+- Supported player and team navigation/editing
+- Search and filtering
+- Staged edits, Pending Changes, Revert, Save As, backups and validation
+- Recent saves and diagnostics
 
-The editor includes supported workflows for:
-
-- Madden NFL Franchise saves
-- College Football Dynasty saves
-- College Football Road to Glory saves
-- Automatic game/version/mode detection
-- Player navigation and editing
-- Team navigation and supported team data
-- Filtering and search tools
-- Staged edits
-- Pending Changes review
-- Revert-before-save workflow
-- Save As output
-- Source-save protection
-- Verified output and backup workflows
-- Recent save history
-- Advanced diagnostics
-- Modern football-themed responsive interface
-
-The editor only exposes functionality that has been implemented for the detected save format. Unsupported or unproven fields remain protected.
+Availability depends on the exact game, mode and file structure.
 
 ---
 
-## 🏟️ Supported Games
+## 🎮 Supported games and scope
 
-### Madden NFL
-
-- Madden NFL 19
-- Madden NFL 20
-- Madden NFL 21
-- Madden NFL 22
-- Madden NFL 23
-- Madden NFL 24
-- Madden NFL 25
-- Madden NFL 26
-- Madden NFL 27
-
-### College Football
-
-- College Football 27 — Dynasty
-- College Football 27 — Road to Glory
-
-Support and available controls can vary between games, versions, and save modes.
+**Documented target families:** Madden NFL 19–27 and College Football 27 (Dynasty / Road to Glory). This list is not a guarantee that every field or mode is editable; consult the matching release notes.
 
 ---
 
-## 🛡️ Save Safety
+## 🛡️ Safety and limitations
 
-Save integrity is a core design principle of the editor.
-
-Supported workflows include safeguards such as:
-
-- source-save protection
-- staged changes
-- review-before-export
-- revert support
-- Save As output
-- validation before export
-- output reparsing
-- protection of unsupported fields
-
-Keeping your own backup of important saves is still strongly recommended.
+Preserve original saves and use copied fixtures for testing. Unsupported fields must remain protected. Verify the detected game and mode and inspect the output before using it in gameplay.
 
 ---
 
-## 🚀 Installing
+## 🚀 Installing and getting started
 
-### Installer
-
-1. Download the latest installer from **Releases**.
-2. Run the installer.
-3. Launch **MCST3RX Football Save Editor**.
-4. Open a supported football save.
-5. The editor will detect the applicable game, version, and mode.
-
-### Portable Version
-
-If a portable ZIP is provided:
-
-1. Download the ZIP.
-2. Extract it to a folder.
-3. Launch the included executable.
-
-Do not run the application directly from inside the ZIP archive.
+Download an approved installer or portable ZIP from Releases. Extract portable builds fully, launch the application, open a supported save, and confirm game/version/mode detection before editing.
 
 ---
 
-## 📝 Release Notes
+## 📝 Release notes
 
-Every public release will include notes covering:
-
-- new features
-- newly supported games or save formats
-- improvements
-- bug fixes
-- compatibility changes
-- UI updates
-- known limitations
-
-Previous versions remain documented through GitHub Releases.
+Published release notes identify the application version, supported games/builds, new features, fixes, compatibility changes, and known limitations. A planned or historically tested feature is not automatically a feature of the latest published build.
 
 ---
 
-## 💬 Bug Reports & Feature Requests
+## 💬 Bug reports and feature requests
 
-Found a problem with the MCST3RX Football Save Editor or have an idea for an improvement?
-
-➡️ **Submit an Issue:**  
-https://github.com/mcst3rx/mcst3rx-football-save-editor-releases/issues/new/choose
-
-Choose the appropriate template:
-
-- 🐛 **Bug Report** — Report a problem or something that is not working as expected.
-- 💡 **Feature Request** — Suggest a new feature, improvement, or workflow.
-
-### 🐛 Reporting a Bug
-
-Before submitting a bug report:
-
-- Make sure you are using the latest official release.
-- Check existing issues to see whether the problem has already been reported.
-- Include your editor version.
-- Select the affected game and save mode.
-- Explain the steps needed to reproduce the problem.
-- Include the exact error message when applicable.
-- Attach screenshots or a short recording when useful.
-- Keep a backup of important save files.
-
-Please do not publicly upload private or sensitive files.
-
-If a save file is eventually required for investigation, wait until MCST3RX specifically requests one and follow the provided instructions.
-
-### 💡 Requesting a Feature
-
-Before submitting a feature request:
-
-- Check existing issues to see whether the idea has already been suggested.
-- Include your editor version.
-- Select the affected game or save mode.
-- Clearly describe the feature or improvement you would like.
-- Explain why the feature would be useful.
-- Describe how you imagine it working.
-- Include screenshots, mockups, examples, or references when helpful.
-- Submit one feature request per issue so each idea can be reviewed separately.
-
-Feature requests are suggestions and are not guaranteed to be implemented.
+[Open an issue](https://github.com/mcst3rx/MCST3RX-Football-Save-Editor-Releases/issues/new/choose) to report a reproducible problem or suggest an improvement. Include the application version, game/version, expected and actual behavior, reproduction steps, and useful screenshots. Check existing issues first. Do not post private saves, copyrighted game assets, credentials, or sensitive logs publicly. Suggestions do not guarantee implementation.
 
 ---
 
-## 🔒 Source Code
+## 🔒 Source code and licensing
 
-The **MCST3RX Football Save Editor is not an open-source project**.
+This is a compiled-release and community-support repository; application source is maintained privately in `MCST3RX-Football-Save-Editor-Source`. No open-source license is granted by this README. The applicable license governs usage and redistribution; verify that license is included before distributing a build.
 
-This public repository exists for official compiled releases, downloads, documentation, bug reports, and release information.
-
-The application source code is maintained separately in a private development repository.
-
-See [`LICENSE.md`](LICENSE.md) for permitted use and distribution terms.
-
----
-
-## ☕ Support MCST3RX
-
-All MCST3RX tools are developed for the community and provided free of charge.
-
-If you enjoy the project and would like to support continued development:
-
-**Ko-fi:** https://ko-fi.com/mcst3rx
-
-Support is completely optional and never unlocks or gates application features.
+Do not infer open-source rights from bundled upstream libraries. Third-party dependencies retain their licenses. Confirm the Football Save Editor’s own `LICENSE.md` before publishing.
 
 ---
 
 ## 🌐 Community
 
-**YouTube**  
-https://www.youtube.com/@mcst3rx
-
-**Discord**  
-https://discord.gg/TyVaFfSsnT
-
-Follow tutorials, development updates, feature previews, and new release announcements.
+- [GitHub](https://github.com/mcst3rx)
+- [Discord](https://discord.gg/TyVaFfSsnT)
+- [YouTube](https://www.youtube.com/@mcst3rx)
+- [Ko-fi](https://ko-fi.com/mcst3rx)
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Independence and trademarks
 
-MCST3RX Football Save Editor is an independent community-made tool.
-
-It is not affiliated with, endorsed by, sponsored by, or associated with Electronic Arts, EA SPORTS, the NFL, the NCAA, participating colleges, conferences, teams, athletes, or other official rights holders.
-
-All third-party names, trademarks, logos, and game assets remain the property of their respective owners.
-
-Always keep backups of important save files.
+MCST3RX develops independent community software and is not affiliated with or endorsed by the relevant game publishers, sports leagues, teams, manufacturers, or rights holders. Third-party trademarks, games, and assets belong to their owners. Third-party dependencies retain their respective licenses.
 
 ---
 
 ## ❤️ Built for the Community
 
-**MCST3RX Tools**
-
-*Built by players, for the community.*
-
-**Edit. Apply. Review. Play.**
+**MCST3RX Tools** — *Built by players, for the community.*
